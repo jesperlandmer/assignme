@@ -1,0 +1,108 @@
+* {
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: 'Rosario', sans-serif;
+    /* background: #062754; */
+    font-weight: 700;
+    font-size: 15px;
+    color: #222;
+}
+
+.button {
+  background-color: #65dd19 !important;
+}
+
+.button:hover {
+  background-color: #6def1b !important;
+}
+
+.container h1, h2, h3, h4, span,  {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
+.rw-sentence>.rw-words.rw-words-1>span {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 900;
+}
+
+[role="main"] {
+    width: 960px;
+    margin: 0 auto;
+}
+h1, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 220%;
+    text-align: center;
+}
+a {
+    color: #fff;
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+.ch-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    li {
+        width: 220px;
+        height: 220px;
+        display: inline-block;
+        margin: 20px;
+    }
+}
+.ch-grid:before, .ch-grid:after {
+    content: '';
+    display: table;
+}
+.ch-grid:before {
+    clear: both;
+}
+/* hero text effect */
+@import url(https://fonts.googleapis.com/css?family=Imprima);
+
+body{
+	background: #F9F3EF;
+}
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 110px auto 0 auto;
+	font-family: 'Imprima', sans-serif;
+	padding: 10px;
+}
+.rw-sentence{
+	margin: 0;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.rw-sentence span{
+	color: #444;
+	font-size: 200%;
+	font-weight: normal;
+}
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+.rw-words-1 span{
+	position: absolute;
+	overflow: hidden;
+	color: #64DD17;
+}
+@media screen and (max-width: 768px){
+	.rw-sentence { font-size: 18px; }
+}
+@media screen and (max-width: 320px){
+	.rw-sentence { font-size: 9px; }
+}
